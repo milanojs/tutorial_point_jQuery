@@ -3,9 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>js Overview</title>
-	<script type="text/javascript" href="../js/jquery-3.3.1.js"></script>>
+	<script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="custom.js"></script>
+
 </head>
 <body>
+	<!-- <script type = "text/javascript">
+         $(document).ready(function() {
+            document.write("Hello, World!");
+         });
+      </script> -->
+      <div>
+      	hello
+      </div>
 
+       <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+            $("div").click(function() {alert("Hello, world!");});
+         });
+      </script>
+       <div id = "mydiv">
+         Click on this to see a dialogue box.
+      </div>
 </body>
 </html>
